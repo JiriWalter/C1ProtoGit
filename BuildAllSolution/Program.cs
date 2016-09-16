@@ -14,24 +14,6 @@ namespace BuildAllSolution
 		
 		static void Main(string[] args)
 		{
-			//"c:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe"  /consoleloggerparameters:ErrorsOnly//
-
-
-			//ProcessStartInfo psi = new ProcessStartInfo("c:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\MSBuild.exe");
-			//psi.Arguments = "\"CoreExtension\\Byznys.Entities.sln\" /t:rebuild ";
-			//psi.WorkingDirectory = "d:\\BEVO\\Byznys\\BEVO\\DEVCore\\";
-			//psi.UseShellExecute = false;
-			//psi.RedirectStandardOutput = true;
-
-			//Process compiler = new Process();
-			//compiler.StartInfo = psi;
-
-			//compiler.Start();
-			////Process.Start(psi);
-
-			//Console.WriteLine(compiler.StandardOutput.ReadToEnd());
-
-			//compiler.WaitForExit();
 
 			var parameter = string.Empty;
 			if (args.Count()>0 && !String.IsNullOrEmpty(args[0]))

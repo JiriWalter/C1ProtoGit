@@ -21,12 +21,7 @@ namespace BuildAllSolution
 		/// Zahrnout SLN: ETL, UPSIZE, UPSIZENULA 
 		/// </summary>
 		Upsize = 1,
-		/// <summary>
-		/// Zahrnout do kompilování testovací projekty
-		/// </summary>
 		Tests = 2,		
-		/// Pouze Moduly
-		/// </summary>
 		Modules = 4,
 		/// <summary>
 		/// Pouze Core
@@ -44,10 +39,6 @@ namespace BuildAllSolution
 		/// Nezahrnovat žádné volitelné varianty
 		/// </summary>
 		Minimum = 64,
-		/// <summary>
-		/// <summary>
-		/// Zahrnout upsize i testy 
-		/// </summary>
 		All = Upsize | Tests
 		/// <summary>
 	}

@@ -7,3 +7,5 @@ c:\Root\Bevo\FrameWork\BuildAllSolution\BuildAllSolution\obj\x86\Debug\BuildAllS
 c:\Root\Bevo\FrameWork\BuildAllSolution\BuildAllSolution\obj\x86\Debug\BuildAllSolution.pdb
 c:\Root\C1ProtoGit\BuildAllSolution\obj\x86\Debug\BuildAllSolution.exe
 c:\Root\C1ProtoGit\BuildAllSolution\obj\x86\Debug\BuildAllSolution.pdb
+C:\Users\hron\C1ProtoGit\BuildAllSolution\obj\x86\Debug\BuildAllSolution.exe
+C:\Users\hron\C1ProtoGit\BuildAllSolution\obj\x86\Debug\BuildAllSolution.pdb

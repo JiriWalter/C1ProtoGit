@@ -9,7 +9,7 @@
     MSBuildParameter="/t:rebuild"
     MSBuildParameterStandalone="/t:rebuild /p:Configuration=Standalone"
     OutputFile="True"
-    OutputConsole="True"
-    ></SolutionSettingsFile>
+    OutputConsole="True">
+  </SolutionSettingsFile>
 
 </SolutionSettings>

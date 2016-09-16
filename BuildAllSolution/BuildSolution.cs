@@ -49,7 +49,6 @@ namespace BuildAllSolution
 				else
 					_MSBuildFile = DataV[0]["MSBuildFile32"].ToString();
 			}
-            //_MSBuildFile = DataV[0]["MSBuildFile"].ToString();
 
             // Hack pro Visual Studio 2015 clean install:
             if (Directory.Exists(@"c:\Program Files (x86)\MSBuild"))
@@ -180,7 +179,6 @@ namespace BuildAllSolution
 				ReportCurrentState(DataV);
 				Console.WriteLine("Provádím Build: " + drv["name"].ToString() + " ...");
 				ProcessStartInfo psi = new ProcessStartInfo(_MSBuildFile);
-				//psi.Arguments = "\"CoreExtension\\Byznys.Entities.sln\" /t:rebuild ";
 
 				psi.Arguments = "\"" + drv["folder"].ToString() + "\\" + drv["name"].ToString() + "\"" + " " + _MSBuildParameter;
 
