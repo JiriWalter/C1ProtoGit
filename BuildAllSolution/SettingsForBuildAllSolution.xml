@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SolutionSettings>
+
+  <SolutionSettingsFile
+    MSBuildPlatform="Auto"
+    MSBuildFile32="c:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\MSBuild.exe"
+    MSBuildFile64="c:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\MSBuild.exe"
+    DefaultFolder="d:\\Byznys\\BEVO\\DEVCore\\"
+    MSBuildParameter="/t:rebuild"
+    MSBuildParameterStandalone="/t:rebuild /p:Configuration=Standalone"
+    OutputFile="True"
+    OutputConsole="True"
+    ></SolutionSettingsFile>
+
+</SolutionSettings>

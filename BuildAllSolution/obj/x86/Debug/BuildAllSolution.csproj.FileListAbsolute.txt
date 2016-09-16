@@ -1,0 +1,9 @@
+c:\Root\Bevo\FrameWork\BuildAllSolution\BuildAllSolution\bin\Debug\DataForBuildAllSolution.xml
+c:\Root\Bevo\FrameWork\BuildAllSolution\BuildAllSolution\bin\Debug\SettingsForBuildAllSolution.xml
+c:\Root\Bevo\FrameWork\BuildAllSolution\BuildAllSolution\bin\Debug\BuildAllSolution.exe
+c:\Root\Bevo\FrameWork\BuildAllSolution\BuildAllSolution\bin\Debug\BuildAllSolution.pdb
+c:\Root\Bevo\FrameWork\BuildAllSolution\BuildAllSolution\obj\x86\Debug\BuildAllSolution.csprojResolveAssemblyReference.cache
+c:\Root\Bevo\FrameWork\BuildAllSolution\BuildAllSolution\obj\x86\Debug\BuildAllSolution.exe
+c:\Root\Bevo\FrameWork\BuildAllSolution\BuildAllSolution\obj\x86\Debug\BuildAllSolution.pdb
+c:\Root\C1ProtoGit\BuildAllSolution\obj\x86\Debug\BuildAllSolution.exe
+c:\Root\C1ProtoGit\BuildAllSolution\obj\x86\Debug\BuildAllSolution.pdb

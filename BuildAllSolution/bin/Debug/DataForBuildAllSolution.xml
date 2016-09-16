@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Solution>
+
+  <SolutionFile name="Byznys.Interfaces.sln" folder="Core"/>
+  <SolutionFile name="Byznys.Entities.sln" folder="CoreExtension"/>
+  <SolutionFile name="DemoRepository.sln" folder="CoreExtension"/>
+  <SolutionFile name="Byznys.Server.sln" folder="Core"/>
+  <SolutionFile name="Byznys.ETL.sln" folder="Core" includeIn="Upsize" />
+  <SolutionFile name="Upsize.sln" folder="Upsize" includeIn="Upsize" />
+  <SolutionFile name="My Upsize - Nula.sln" folder="Upsize" includeIn="Upsize" />
+  <SolutionFile name="Byznys.Client.sln" folder="Core"/>
+  <SolutionFile name="Byznys.Client.Themes.sln" folder="Core"/>
+  <SolutionFile name="General.Pickers.sln" folder="Modules\General.Pickers"/>
+  <SolutionFile name="General.Other.sln" folder="Modules\General.Other"/>
+  <SolutionFile name="Central.sln" folder="Modules\Central"/>
+  <SolutionFile name="Eva.sln" folder="Modules\Eva"/>
+  <SolutionFile name="Fakturace.sln" folder="Modules\Fakturace"/>
+  <SolutionFile name="Metadata.sln" folder="Modules\Metadata"/>
+  <SolutionFile name="Sklad.sln" folder="Modules\Sklad"/>
+  <SolutionFile name="Doprava.sln" folder="Modules\Doprava"/>
+  <SolutionFile name="Banka.sln" folder="Modules\Banka"/>
+  <SolutionFile name="Vyroba.sln" folder="Modules\Vyroba"/>
+  <SolutionFile name="Pokladna.sln" folder="Modules\Pokladna"/>
+  <SolutionFile name="Ucetnictvi.sln" folder="Modules\Ucetnictvi"/>
+  <SolutionFile name="Zakazky.sln" folder="Modules\Zakazky"/>
+  <SolutionFile name="Majetek.sln" folder="Modules\Majetek"/>
+  <SolutionFile name="Crm.sln" folder="Modules\Crm"/>
+  <SolutionFile name="Byznys.Server.Host.sln" folder="Core"/>
+  <SolutionFile name="Byznys.Client.Desktop.sln" folder="Core"/>
+  <SolutionFile name="Server.WpfTestHost.sln" folder="CoreExtension"/>
+</Solution>
