@@ -20,9 +20,13 @@ namespace BuildAllSolution
 			DataSet DataXML;
 			DataXML = new DataSet();
 			if (File.Exists("LocalSettingsForBuildAllSolution.xml"))
+			{
 				DataXML.ReadXml("LocalSettingsForBuildAllSolution.xml");
+			}
 			else
+			{
 				DataXML.ReadXml("SettingsForBuildAllSolution.xml");
+			}
 
 			DataV = new DataView(DataXML.Tables["SolutionSettingsFile"]);
 
@@ -45,9 +49,13 @@ namespace BuildAllSolution
 			else
 			{
 				if (System.Environment.Is64BitOperatingSystem)
+				{
 					_MSBuildFile = DataV[0]["MSBuildFile64"].ToString();
+				}
 				else
+				{
 					_MSBuildFile = DataV[0]["MSBuildFile32"].ToString();
+				}
 			}
 
             // Hack pro Visual Studio 2015 clean install:
@@ -74,14 +82,22 @@ namespace BuildAllSolution
 			_DefaultFolder = DataV[0]["DefaultFolder"].ToString();
             _MSBuildParameter = DataV[0]["MSBuildParameter"].ToString();
 			if (DataV[0]["OutputFile"].ToString() == "True")
+			{
 				_OutputFile = true;
+			}
 			else
+			{
 				_OutputFile = false;
+			}
 
 			if (DataV[0]["OutputConsole"].ToString() == "True")
+			{
 				_OutputConsole = true;
+			}
 			else
-				_OutputConsole = false;			
+			{
+				_OutputConsole = false;
+			}
 		}
 
 		private static string _quickProgressInfo = string.Empty;

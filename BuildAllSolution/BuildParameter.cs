@@ -39,7 +39,8 @@ namespace BuildAllSolution
 		/// Nezahrnovat žádné volitelné varianty
 		/// </summary>
 		Minimum = 64,
-		All = Upsize | Tests
+		All = Upsize | Tests,
 		/// <summary>
+		Insane = 128
 	}
 }
