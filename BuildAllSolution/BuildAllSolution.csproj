@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="BuildParameter.cs" />
     <Compile Include="BuildSolution.cs" />
+    <Compile Include="NewFolder1\Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
