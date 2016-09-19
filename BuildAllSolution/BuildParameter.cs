@@ -40,9 +40,5 @@ namespace BuildAllSolution
 		/// </summary>
 		Minimum = 64,
 		All = Upsize | Tests,
-		/// <summary>Insane level of branching</summary>
-		Insane = 128,
-
-		Moronic = 256,
 	}
 }
