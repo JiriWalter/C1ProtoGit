@@ -16,6 +16,7 @@ namespace BuildAllSolution
 
 		private static void RefreshSettings()
 		{
+			// Do the refresh
 			DataView DataV;
 			DataSet DataXML;
 			DataXML = new DataSet();
