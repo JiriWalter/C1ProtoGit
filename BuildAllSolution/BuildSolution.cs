@@ -16,10 +16,11 @@ namespace BuildAllSolution
 
 		private static void RefreshSettings()
 		{
-			// Do the refresh
+			// Do the refresh - YEAH
 			DataView DataV;
 			DataSet DataXML;
 			DataXML = new DataSet();
+
 			if (File.Exists("LocalSettingsForBuildAllSolution.xml"))
 			{
 				DataXML.ReadXml("LocalSettingsForBuildAllSolution.xml");
