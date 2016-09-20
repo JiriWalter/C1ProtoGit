@@ -29,10 +29,7 @@ namespace BuildAllSolution
 						break;
 					case "p":
 						popisSpusteni = "Pluginy";
-						break;
-					case "t":
-						popisSpusteni = "Bez testů";
-						break;					
+						break;			
 					case "k":
 						popisSpusteni = "Kompletní";
 						break;
