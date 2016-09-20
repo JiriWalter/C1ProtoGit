@@ -30,6 +30,6 @@
   <SolutionFile name="Crm.sln" folder="Modules\Crm"/>
   <SolutionFile name="Byznys.Server.Host.sln" folder="Core"/>
   <SolutionFile name="Byznys.Client.Desktop.sln" folder="Core"/>
-  <SolutionFile name="Server.WpfTestHost.sln" folder="CoreExtension"/>
+  <SolutionFile name="Server.WpfTestHost.sln -a" folder="CoreExtension"/>
   
 </Solution>
