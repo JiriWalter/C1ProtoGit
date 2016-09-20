@@ -14,7 +14,7 @@ namespace BuildAllSolution
 		
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Větev: Test test");
+			Console.WriteLine("Větev: Test test.");
 
 
 			var parameter = string.Empty;
