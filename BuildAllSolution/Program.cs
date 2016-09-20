@@ -83,6 +83,8 @@ namespace BuildAllSolution
             BuildSolution.PrintErrorSummary();
 
 			// Vyprázdnit zásobník náhodných kláves:
+
+			//Some change
 			while (Console.KeyAvailable)
 				Console.ReadKey();
 
