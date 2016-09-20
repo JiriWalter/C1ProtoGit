@@ -14,6 +14,8 @@ namespace BuildAllSolution
 		
 		static void Main(string[] args)
 		{
+			Console.WriteLine("Starting execution..");
+
 			var parameter = string.Empty;
 			if (args.Count()>0 && !String.IsNullOrEmpty(args[0]))
 			{
